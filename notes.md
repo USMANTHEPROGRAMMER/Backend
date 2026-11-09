@@ -193,11 +193,22 @@ MongoDB mein Cluster ek group of database servers hota hai jo tumhare data ko st
 Simple words mein:
 Cluster = Tumhara database infrastructure jahan tumhari databases run karti hain.
 
+MongoDB mein:
+- Cluster → Database infrastructure
+- Database → Data ka container
+- Collection → Documents ka group
+- Document → Individual record (e.g. one user)
 
+ismen 2 Security ki Layers bhi hoti hain!
+1. Network Access
+2. Database Access
 
+Password for Database = "XeOj83BpgYDdGEOr"
 
+MongoDB Compass: Database ko manually visually manage karne ke liye.
 
+Mongoose is an ODM (Object Data Modeling) library for MongoDB and Node.js.
 
+Simple words mein:
 
-
-
+Mongoose tumhare Node.js / Express backend ko MongoDB ke saath easily interact karne mein help karta hai.
