@@ -212,3 +212,34 @@ Mongoose is an ODM (Object Data Modeling) library for MongoDB and Node.js.
 Simple words mein:
 
 Mongoose tumhare Node.js / Express backend ko MongoDB ke saath easily interact karne mein help karta hai.
+
+Lekin Express ko image file receive aur handle karne ke liye ek middleware chahiye. Multer wahi kaam karta hai.
+
+Middleware ek function hota hai jo request aur response ke beech execute hota hai.
+
+Now We are Starting most Important Topic which is Authentication System in Node.js / Express.
+ismen 4 Important Concept prhenge:
+Validation
+Verification
+Authentication
+Authorization
+
+sabse pehle hum Validation ki baat krte hain:
+
+like jaise hum ek Form lete hain user se jismen 4 Input Fields hain Name, Email, Password, Phone. 
+ismen se User ne Email ka Format ghlt likh dia to ise hum kehte hain Validation krwana.
+Simple Words main: Data Sahi hai ya nahi?
+Validation ka matlab hai user jo data enter kar raha hai, woh required rules follow karta hai ya nahi.
+
+ab hum baat krte hain Verification ki:
+Verification ka matlab kisi information ya identity ke claim ko confirm karna.
+Simple meaning: Kya user waqai us email ko access kar sakta hai?
+bhale wo ap OTP ke through Verify kre ya kuch bhi
+
+Now We'll Move into Authentication:
+Authentication ka matlab user ki identity confirm karna.
+Simple meaning: Kya tum wohi user ho jis account ka claim kar rahe ho?
+
+Now We'll Move into Authorization:
+Authorization ka matlab authenticated user ki permissions check karna.
+Simple meaning: Tumhen kis cheez ki Permission hai OR User kya kar sakta hai?
