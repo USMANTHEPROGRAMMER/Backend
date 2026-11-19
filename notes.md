@@ -243,3 +243,21 @@ Simple meaning: Kya tum wohi user ho jis account ka claim kar rahe ho?
 Now We'll Move into Authorization:
 Authorization ka matlab authenticated user ki permissions check karna.
 Simple meaning: Tumhen kis cheez ki Permission hai OR User kya kar sakta hai?
+
+ab humare paas mainly 2 Type ke Authentication System hote hain:
+1. Token Based
+2. Session Based
+
+abhi hum Follow krenge Token Based or uske liye sabse acha hai JWT 
+
+ab humen isko implement krne ke liye ek Package ki zrort prti hai or wo Package hai jsonwebtoken
+
+yahan par ab ek Important Topic hai Cookies ka jo ke humen krna hai:
+Cookies small pieces of data hoti hain jo website browser mein store karti hai.
+
+humara server cookies ko read bhi krskta hai and create bhii
+isko Perform krne ke liye humen ek Middle Ware ki Zrort prti hai jo ke hai CookieParser
+
+cookies ke speciality yeh hai ke server use read krskta hai and woh har response ke saath jaata bhi haii this is why Cookies are so Special!
+
+har request ke saath cookies ko hum access krskte hain!
